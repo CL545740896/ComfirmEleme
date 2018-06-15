@@ -9,7 +9,7 @@ def get_phone():
     '''
     try:
         data = {
-            'mobile': '13750011737',
+            'mobile': '13750011731',
             'url': 'https://h5.ele.me/hongbao/#hardware_id=&is_lucky_group=True&lucky_number=10&track_id=&platform=0&sn=10f2b5dc362b70ea&theme_id=2657&device_id=&refer_user_id=35271716'
         }
         r1=requests.post(url='http://127.0.0.1:3007/hongbao', data=data,timeout=3)
